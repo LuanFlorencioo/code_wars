@@ -1,4 +1,4 @@
-const makeNegative = require('./index');
+const makeNegative = (number) => (number <= 0) ? number : -(number);
 
 test("make return negative number", () => {
     expect(makeNegative(3)).toBe(-3);

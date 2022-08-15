@@ -1,4 +1,8 @@
-const SmallestIntegerFinder = require('./index');
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+        return Math.min(...args);
+    }
+}
 
 test("Find the smallest interger", () => {
     const sif = new SmallestIntegerFinder();
