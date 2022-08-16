@@ -1,0 +1,1 @@
+const maskify = data => data.slice(-4).padStart(data.length, '#');
